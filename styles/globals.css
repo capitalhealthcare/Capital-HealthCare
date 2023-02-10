@@ -1,0 +1,15 @@
+.can-help.services-two {
+    z-index: 1;
+    position: relative;
+    padding-bottom: 101px !important;
+}
+.faq .faq_2 button {
+    background: rgb(229 229 229) !important;
+    color: #0E0A01 !important;
+}
+.mapframe {
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: -70px !important;
+    padding-bottom: -70px !important;
+}
