@@ -7,7 +7,7 @@ import Head from "next/head";
 import ReactMarkdown from "react-markdown";
 import Link from "next/link";
 
-export const test = ({ items }) => {
+export const Test = ({ items }) => {
   const router = useRouter();
 
   return (
