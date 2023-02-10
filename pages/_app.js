@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import "../styles/style.css";
 import Head from "next/head";
 import Script from "next/Script";
-// import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 export default function App({ Component, pageProps }) {
@@ -10,9 +10,9 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
    
-        <link rel="stylesheet" href="assets/css/icons.css" />
+        {/* <link rel="stylesheet" href="assets/css/icons.css" />
       
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" /> */}
   
        
       </Head>

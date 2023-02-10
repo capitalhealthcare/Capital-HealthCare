@@ -12,9 +12,9 @@ import Head from "next/head";
 export const about = () => {
   return (
     <>
-     <Head>
+     {/* <Head>
       <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-      </Head>
+      </Head> */}
 
       <Navbar />
 

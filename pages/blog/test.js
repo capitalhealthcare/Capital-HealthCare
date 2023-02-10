@@ -7,7 +7,7 @@ import Head from "next/head";
 import ReactMarkdown from "react-markdown";
 import Link from "next/link";
 
-export const Slug = ({ items }) => {
+export const test = ({ items }) => {
   const router = useRouter();
 
   return (
@@ -20,26 +20,26 @@ export const Slug = ({ items }) => {
         {/* <!-- ======== Page title ============ --> */}
         <title>CONSULTER - Business Consulting HTML Template</title>
         {/* <!-- ========== Favicon Icon ========== --> */}
-        <link rel="shortcut icon" href="assets/img/favicon.png" />
+        {/* <link rel="shortcut icon" href="assets/img/favicon.png" /> */}
         {/* <!-- ===========  All Stylesheet ================= --> */}
         {/* <!--  Icon css plugins --> */}
-        <link rel="stylesheet" href="../assets/css/icons.css" />
+        {/* <link rel="stylesheet" href="../assets/css/icons.css" /> */}
         {/* <!--  magnific-popup css plugins --> */}
-        <link rel="stylesheet" href="../assets/css/magnific-popup.css" />
+        {/* <link rel="stylesheet" href="../assets/css/magnific-popup.css" /> */}
         {/* <!-- slick slider menu css file --> */}
-        <link rel="stylesheet" href="../assets/css/slick.min.css" />
+        {/* <link rel="stylesheet" href="../assets/css/slick.min.css" /> */}
         {/* <!-- animate animation css file --> */}
-        <link rel="stylesheet" href="../assets/css/animate.min.css" />
+        {/* <link rel="stylesheet" href="../assets/css/animate.min.css" /> */}
         {/* <!--  Bootstrap css plugins --> */}
-        <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+        {/* <link rel="stylesheet" href="../assets/css/bootstrap.min.css" /> */}
         {/* <!-- template main style css file --> */}
-        <link rel="stylesheet" href="../../styles/style.css" />
-        <link rel="stylesheet" href="" />
+        {/* <link rel="stylesheet" href="../../styles/style.css" />
+        <link rel="stylesheet" href="" /> */}
 
-        <script
+        {/* <script
           src="https://kit.fontawesome.com/a076d05399.js"
           crossorigin="anonymous"
-        ></script>
+        ></script> */}
       </Head>
 
       <Navbar />
@@ -281,7 +281,7 @@ export const Slug = ({ items }) => {
   );
 };
 
-export default Slug;
+export default test;
 
 
 export const getServerSideProps = async ({ query: { id } }) => {

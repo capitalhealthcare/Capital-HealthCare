@@ -14,9 +14,9 @@ import { ServicesRightImageTwoColumn } from "../components/Services-Two-Column/S
 export const medicalBilling = ({ articles }) => {
   return (
     <>
-     <Head>
+     {/* <Head>
       <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-      </Head>
+      </Head> */}
       
       <Navbar />
 
