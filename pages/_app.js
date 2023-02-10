@@ -11,7 +11,9 @@ export default function App({ Component, pageProps }) {
       <Head>
    
         <link rel="stylesheet" href="assets/css/icons.css" />
- 
+      
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  
        
       </Head>
        
