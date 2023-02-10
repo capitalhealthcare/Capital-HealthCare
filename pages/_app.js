@@ -17,9 +17,9 @@ export default function App({ Component, pageProps }) {
        
       </Head>
        
-      <Script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></Script>
+      <Script src="https://kit.fontawesome.com/a076d05399.js" async  crossorigin="anonymous"></Script>
 
-      <Script src="/assets/js/bootstrap.min.js"></Script> 
+      <Script src="/assets/js/bootstrap.min.js" async ></Script> 
       {/* <Script src="/assets/js/slick.min.js"></Script> */}
       {/* <Script src="/assets/js/scrollUp.min.js"></Script> */}
       {/* <Script src="/assets/js/counterup.min.js"></Script> */}
