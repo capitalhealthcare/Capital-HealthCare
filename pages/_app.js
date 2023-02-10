@@ -12,9 +12,10 @@ export default function App({ Component, pageProps }) {
    
         <link rel="stylesheet" href="assets/css/icons.css" />
  
-        
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+       
       </Head>
+       
+      <Script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></Script>
 
       <Script src="/assets/js/bootstrap.min.js"></Script> 
       {/* <Script src="/assets/js/slick.min.js"></Script> */}
